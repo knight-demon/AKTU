@@ -30,6 +30,13 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '2mb',
+      // Allow more time for AI functions to run
+      timeout: 120,
+    },
+  },
 };
 
 export default nextConfig;
