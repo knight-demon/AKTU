@@ -1,7 +1,7 @@
 {
   "framework": "nextjs",
   "functions": {
-    "src/app/**/*.ts": {
+    "src/app/**/*": {
       "maxDuration": 60
     }
   }
